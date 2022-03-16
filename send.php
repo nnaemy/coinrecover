@@ -4,7 +4,7 @@
 if (isset($_POST['name']) && isset($_POST['email']
     && isset($_POST['year'] && isset($_POST['wallet']
     )) {
-	include 'recover.php';
+	include 'http://localhost/coinrecovery/recover.php';
 
 	function validate($data){
        $data = trim($data);
